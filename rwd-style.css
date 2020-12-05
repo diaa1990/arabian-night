@@ -1,0 +1,247 @@
+@media screen and (max-width:450px){
+    *{
+        box-sizing: border-box;
+
+    }               
+    body{
+                        padding:0;
+                        margin:0;
+                        
+
+                    }
+    .nav-bar{
+                       background-color: black;
+                       display: flex;
+                       flex-direction: column;
+                       
+                       
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 1.5em;
+        padding: 25px;
+}
+.nav-bar h3{
+        display: flex;
+        font-family: 'Kaushan Script', cursive;
+        letter-spacing: 5px;
+        word-spacing: -6px;
+        color: white;
+        
+
+}
+.nav-bar .red-text{
+        color: red;
+}
+.nav-bar nav{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin:0;
+        padding:0;
+        
+
+}
+.nav-bar a{
+        
+        margin:0;
+        margin-left:0;
+        padding: 5px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        font-size:1em;
+        letter-spacing: 2px;
+        border-bottom: 2px solid white;
+        
+    }
+.big-image{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.big-image img{
+    width: 100%;
+    height:500px;
+    
+    
+}
+.big-image h2{
+    display: flex;
+    align-content: center;
+    margin-top: 150px;
+    background-image:linear-gradient(to bottom ,rgb(247, 184, 67) ,rgba(255, 166, 0, 0.205));
+    border:3px solid goldenrod;
+    border-radius: 5px;
+    font-size:1em;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    color: white;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.691);
+                     
+}
+.big-image a{
+    background-image:linear-gradient(to bottom ,rgb(247, 184, 67) ,rgba(255, 166, 0, 0.205));
+}
+.social-med-icon{
+    display: none;
+}
+.about-us{
+   
+    
+
+}
+
+.about-us img{
+    border: none;
+ width: 70%;
+ height:25rem;   
+}
+.about-us-text{´
+    width: 100%;
+    
+}
+
+.about-us h3{
+    font-size: 3em;
+    
+}
+.about-us p{
+    font-size: 2em;
+
+}
+.our-team{
+    display: flex;
+}
+.our-team-text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    }
+    .our-team-text h3{
+        font-size: 3em;
+       }
+.our-team-text p{
+        text-align: center;    
+        font-size:1em;
+        
+    }
+    .team-member-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-member{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .team-member img{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        }
+        .team-member h4{
+            font-size: 2em;
+        }
+
+    .app-download{
+                        
+                        display: flex;
+                        flex-direction:column;
+                        align-items: center;      
+                       
+                    }
+                    .download-text{
+                        text-align: center;   
+
+                       
+                    }
+                    .download-text h4{
+                        width: 100%;
+                        font-size: 1.3em;
+                        margin:30px auto;
+                        border: none;
+                        }
+                    .download-text p{
+                       padding:10px;
+
+                    }
+                    .images-container{
+                        display:flex;
+                        flex-direction: column;
+                       
+                    }
+                    .main-download-image {
+                     }
+                    .main-download-image img {
+                     width: 100%;   
+                    }
+                    .bar-code-logo{
+                        max-width: 30%;
+                        margin-left: 60px;
+                    
+                      
+                        
+                    }
+                    
+
+                    .download-options{
+                    align-self:center; 
+                    width: 50%;
+                    display: block;
+
+                    }
+                    .download-options img{
+                     width: 100%;
+                    }
+                    
+                    .your-feedback-container{
+                        /* Center the form on the page */
+                       display: flex;
+                        max-width:20rem;
+                        padding: 1rem;
+                        align-items: center;
+                     /* Form outline */
+                       
+                     } 
+                    .your-feedback-container ul{
+                      display: flex;
+                      flex-direction: column;
+                     }
+                    .your-feedback-container li{
+                        margin: 20px;
+                        font-size: 1.2em;
+                        font-family: 'Kaushan Script', cursive ;
+                        }
+                        .your-feedback-container li input{
+                            height: 3rem;
+                       
+                        
+                        }
+                        textarea{
+                            height: 8rem;
+                        }
+                        
+                        #name ,#email , #letter{
+                            width: 15rem;
+                            font-size:0.8em;
+                            color:rgb(255, 255, 255);
+                            text-align: center;
+                        
+                        }
+                        #email{
+                            letter-spacing:2px;
+                        }
+                        .feedback-button{
+                           width: 200px;
+                           height:35px;
+                           border-radius:3rem;
+                           position: relative;
+                           margin-left:1rem ;
+                           cursor: pointer;
+                           box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.691);
+                        
+                        }
+                        

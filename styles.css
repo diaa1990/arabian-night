@@ -1,0 +1,648 @@
+*{
+    box-sizing: border-box;
+
+}
+body  {
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0;
+                    padding:0;
+                    background-image: linear-gradient(to right, gold ,orange, goldenrod);
+                    
+}
+
+
+.nav-bar{
+                    margin: 0;
+                    padding: 0;
+                    background-color: black;
+                    display: flex;
+                    flex-direction: row;
+                   
+                   
+}
+.logo{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    font-size: 1.5em;
+}
+.nav-bar h3{
+                    display: flex;
+                    font-family: 'Kaushan Script', cursive;
+                    letter-spacing: 5px;
+                    word-spacing: -6px;
+                    color: white;
+                    
+
+}
+.nav-bar .red-text{
+                    color: red;
+}
+.nav-bar nav{
+                    display:flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin: 10px 200px;
+                    padding: 5px;
+                    
+
+}
+.nav-bar a{
+                    
+                    margin:0px 15px;
+                    margin-left:80px;
+                    padding: 5px 20px;
+                    list-style: none;
+                    text-decoration: none;
+                    color: white;
+                    font-size:1em;
+                    letter-spacing: 2px;
+
+}
+.nav-bar a:hover{
+                    background-color: white;
+                    color: black;
+                    border-radius: 5px;
+                    
+}
+.big-image{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                   
+
+}
+.big-image img{
+                    display:flex;
+
+                    width: 100%;
+                    height:1000px;
+                    
+                    
+}
+.big-image h2{
+                    display: flex;
+                    justify-self: flex-end;
+                    background-image:linear-gradient(to bottom ,rgb(247, 184, 67) ,rgba(255, 166, 0, 0.205));
+
+                    border:3px solid goldenrod;
+                    border-radius: 5px;
+                    padding:5px 80px ;
+                    position: absolute;
+                    top: 270px;
+                    right: 270px;
+                    font-size:3em;
+                    font-family: 'Kaushan Script', cursive;
+                    font-weight: bold;
+                    color: white;
+                    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.691);
+                                     
+}
+.big-image a{
+                    background-image:linear-gradient(to bottom ,rgb(247, 184, 67) ,rgba(255, 166, 0, 0.205));
+}
+.big-image a :hover{
+                    background-image:linear-gradient(to top ,rgb(247, 184, 67) ,rgba(255, 166, 0, 0.205));
+                    transform: scale(1.1);
+
+}
+
+/*
+.social-med-icon{
+                    float: left;
+                    position: fixed;
+                    top:150px;
+                   
+                    
+
+}
+.social-med-icon a{
+                    display: block;
+                    
+                    
+                    
+
+}
+.social-med-icon img{
+                    display: block;
+                    background-color:lightgray;
+                    border: 2px solid gray;
+                    border-radius: 3px;
+                    width: 50px;
+                    height: 50px;
+                    margin-left: -10px;
+                    padding:5px 10px;
+                    filter: opacity(0.5);
+                    
+}
+.social-med-icon img:hover{
+                    filter: opacity(1);
+                    padding-left: 70px;
+                   
+
+                    
+}
+*/
+.social-med-icon{
+                    display: flex;
+                    flex-direction: column;
+                    position: fixed;
+                    top: 110px;
+                    margin-left:5px;
+                    padding: 15px;
+                    background-color: rgba(243, 243, 243, 0.205);
+                    border-radius:5px;
+
+                   
+}
+
+.social-med-icon img{
+                     width: 50px;
+                     height: 50px;
+                     border-radius: 50%;
+                     padding: 5px;
+
+    
+
+                    
+                    
+
+}
+.social-med-icon a{
+
+                     padding: 5px;                   
+}
+.social-med-icon a:hover{
+                      
+                      
+                    
+
+
+                    
+}
+.social-med-icon img:hover{
+    background-color: rgba(224, 164, 12, 0.534);
+    border: 6px double rgba(168, 125, 16, 0.657);
+    transition:ease 0.3s;
+    padding: 7px;
+    
+    
+                    
+}
+
+.container{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    
+
+                    
+}
+
+.our-studio{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    
+
+}
+.our-studio-container{
+                    margin: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    
+
+}
+.our-studio-container img{
+                    align-items: center;
+                    width: 270px;
+                    height: 270px;
+                    background-color: gray;
+                    box-shadow:7px 7px 5px rgba(0, 0, 0, 0.445);
+
+}
+.our-studio-container h3{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    font-family: 'Kaushan Script', cursive;
+                    letter-spacing:1px;
+                    word-spacing: 2px;
+                    color: teal;
+
+}
+.our-studio-container h5{
+                    background-image:linear-gradient(to top ,rgb(247, 184, 67) ,rgba(255, 166, 0, 0.205));
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    font-size:1em;
+                    padding:5px;
+                    margin:20px 60px;
+                    
+                    border-radius: 50px;
+                    color:black;
+                    box-shadow:5px 5px 8px  rgba(0, 0, 0, 0.691);
+
+
+}
+.our-studio-container h5:hover{
+                    background-image:linear-gradient(to bottom ,rgb(247, 184, 67) ,rgba(255, 166, 0, 0.205));
+                    transform: scale(1.1);
+                    
+                    
+
+}
+.our-studio-container  a{
+                    text-decoration: none;
+                    
+}
+
+.our-studio-container p{
+
+}
+.about-us{
+                    width: 100%;  
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: goldenrod;
+                    border: 5px double rgb(129, 97, 16);
+                    border-width: 15px;
+                   
+}
+
+.about-us-adress{
+                    justify-self: center;
+}
+.about-us img{
+                    width: 400px;
+                    height:600px;
+                    margin-top: 70px;
+                    padding:15px;
+
+                    box-shadow: 10px 10px 3px 10px  rgb(134, 100, 14) ;
+
+}
+.about-us-text{
+                    background-color:rgb(19, 19, 19);
+                    margin:20px 150px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: stretch;
+                    text-align: center;
+                    color: white;
+                    box-shadow: 15px 15px 3px  rgb(134, 100, 14) ;
+                    
+}
+
+.about-us h3{
+                    font-size: 4em;
+                    font-family: 'Kaushan Script', cursive;
+                    color:rgb(112, 83, 11);
+
+}
+.about-us p{
+                    font-size:3em;
+                    font-family: 'Dancing Script', cursive;
+                    word-spacing: 15px;
+                    color:white;
+                    padding: 25px;
+                    text-align: center;
+                    
+
+}
+
+.our-team{
+                    background-color: rgba(218, 137, 32, 0.835) ;
+                    padding: 20px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    
+                    
+}
+.our-team-text{
+                    display: flex;
+                    flex-direction: column;
+                    }
+
+                
+.our-team-text h3{
+                    font-size: 4em;
+                    font-family: 'Kaushan Script', cursive;
+                    color:rgb(112, 83, 11);
+                    display: flex;
+                    justify-content: center;
+
+                }
+.our-team-text p{
+                    font-size:3em;
+                    font-family: 'Dancing Script', cursive;
+                    letter-spacing:2px;
+                    text-align: center;
+                    white-space: pre;
+                    color: white;
+                    
+                }
+                 
+
+.team-member-container{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width:100%;
+                    
+}
+.team-member{
+                    display: flex;
+                    flex-direction: column;
+                    background-color:rgba(0, 0, 0, 0.712);
+                    border-radius:10px;
+                    width: 15%;
+                    align-items: center;
+                    }
+
+.team-member img{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    background-color: gray;
+                    margin-top: 20px;
+
+}
+.team-member h4{
+                    text-align: center;
+                    font-size:2em ;
+                    font-family: fantasy;
+                    font-weight: bold;
+                    color: goldenrod;
+                   
+
+}
+.team-member h5{
+                    text-align: center;
+                    font-size: 1em;
+                    font-family: cursive;
+                    font-style: italic;
+                    color: rgb(136, 109, 42);
+}
+.app-download{
+    padding: 2rem;
+    border-bottom: 3px solid rgb(88, 64, 3);
+    
+    border-top: 3px solid rgb(88, 64, 3);
+    border-width: 10px;
+    border-radius: 3em;
+    display: flex;
+    flex-direction: column;
+
+    
+   
+}
+.download-text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.download-text h4{
+    border-bottom: 3px solid black;
+    font-size:2em;
+    font-family: 'Kaushan Script', cursive;
+    
+    
+
+}
+.download-text p{
+font-size:1.6em; 
+font-family: 'Dancing Script', cursive;
+letter-spacing:2px;
+
+}
+
+
+
+.images-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.main-download-image {
+   
+}
+.main-download-image img{
+    width:40rem;
+    padding:10%;
+    
+}
+.download-options{
+    align-self: center;
+    width: 30%;
+    display: block;
+
+    }
+.download-options img{
+    width:70%;
+    
+}
+.bar-code-logo{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.5em;
+    padding:0.2em;
+    max-width: 30%;
+    margin-left: 80px;
+    
+}
+.footer{
+                    background-color: black;
+                    width: 100%;
+                    height:40px;
+                    text-align: center;
+}
+.footer a{
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/*--form effect start here ..--*/
+/*feed back  effect start here ..*/
+.your-feedback-container{
+   /* Center the form on the page */
+display:flex;
+flex-direction: column;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width:40rem;
+/* Form outline */
+  padding: 2em;
+  margin: 20px auto;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.376);
+  align-items: center;
+
+}
+
+.your-feedback-container form{
+  
+}
+
+.your-feedback-container ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.your-feedback-container li{
+    margin: 20px;
+    font-size: 1.5em;
+    font-family: 'Kaushan Script', cursive ;
+}
+.your-feedback-container label{
+    display:inline-block;
+    width: 70px;
+}
+.your-feedback-container input, textarea{
+ 
+}
+input{
+    
+
+}
+
+textarea{
+    vertical-align: top;
+    height: 15rem;
+   
+}
+
+#name ,#email , #letter{
+    width:20rem;
+    border: 2px solid gray;
+    border-radius: 3px;
+    background-color: rgba(248, 174, 0, 0.5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:0.8em;
+    color:rgb(255, 255, 255);
+    text-align: center;
+
+}
+#email{
+    letter-spacing:2px;
+}
+.feedback-button{
+   width: 15rem;
+   height:3rem;
+   border-radius:3rem;
+   position: relative;
+   margin-left:7rem ;
+   cursor: pointer;
+   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.691);
+   font-size: 0.7em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(129, 99, 29);
+
+}
+
+/* joining formular styles here*/
+.join-us-form-container{
+    position: static;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1000px;
+     /* Form outline */
+     padding: 1em;
+     border: 1px solid #CCC;
+     border-radius: 1em;
+     background-color: rgba(0, 0, 0, 0.376);
+
+     }
+     .join-us-form-container form{
+         
+     }
+
+     .join-us-form-container ul{
+      list-style: none;
+      margin: 0 50px;
+      padding: 0;
+
+     }
+     .join-us-form-container li{
+        margin: 0 50px;
+        font-size: 1.3em;
+        font-family: 'Kaushan Script', cursive ;
+
+     }
+     .join-us-form-container label{
+         display: inline-block;
+         width:60px;
+         font-size:1em;
+         margin: 20px;
+     }
+     .join-us-form-container input{
+        position: absolute; 
+        margin:20px 150px;
+        justify-items: center;
+        padding:10px;
+        width: 300px;
+        height:20px;
+        border: 2px solid gray;
+        border-radius: 3px;
+        background-color: rgba(248, 174, 0, 0.5);
+        color:rgb(255, 255, 255);
+        text-align: center;
+        font-size: 0.9em;
+     }
+     #title1 , #title2{
+         margin:20px 0;
+     }
+    
+     #password{
+         letter-spacing: 6px;
+     }
+     #Male , #Female {
+         margin-left: 85px;
+     }
+     .accept-condition{
+         display: flex;
+         flex-direction: row;
+     }
+     .accept-condition p{
+        font-size: 0.8em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-spacing: 3px;
+        white-space: pre-line;
+        margin:50px 80px;
+
+     }
+     .accept-condition input{
+         margin:50px -100px;
+     }
+     .joining-button{
+        margin:50px 300px;
+        background-image:linear-gradient(to bottom ,rgb(179, 125, 25) ,rgba(255, 166, 0, 0.418));
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.691);
+        cursor: pointer;
+        color: rgb(95, 39, 7);
+        font-family: 'Kaushan Script', cursive;
+        font-weight: bold;
+        font-size: 1em;
+        }
+     
